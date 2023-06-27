@@ -29,28 +29,18 @@ export default function Technical() {
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="Technical"
-					preTitle="Hardskills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					subTitle="As a full-stack developer proficient in Laravel and DevOps engineering, I specialize in creating intuitive digital experiences through a diverse range of tools and languages."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
 						<CopyBlock 
-							title="Polymath foundations"
-							icon={[ 'fat', 'chart-network' ]}
-							copy="With a strong foundation in both design and development, I bring a unique perspective to every project and am constantly learning and evolving to stay up-to-date with the latest industry trends."
+							title="Creative Right-Hemisphere"
+							icon={[ 'fat', 'lightbulb' ]}
+							copy="Being left-handed has uniquely unlocked the creative potential of my right hemisphere, allowing me to cultivate a natural inclination towards artistic endeavors and aesthetics. With a keen sense of design, I harness this advantage to bring forth innovative and visually appealing solutions."
 							iconClass={about.icon}
 							containerClass={about.container}
 						/>
-						<BadgesBlock 
-							title="Software I love to work with" 
-							copy="With over 20 years of experience creating digital assets, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. This is just some of the software I have used over that time."
-							list={software}
-							block="software" 
-							fullContainer="fullContainer"
-							icon="grid-2-plus"
-							containerClass={about.container}
-							headerIcon={about.icon} 
-						/>
+
 						<BadgesBlock 
 							title="Technologies I love to build with" 
 							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."

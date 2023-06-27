@@ -1,15 +1,19 @@
 {
-	"name": "Andrew Nelson",
-	"logo": "",
+	"name": "Laxit Patel",
+	"logo": "😺",
 	
 	"username": {
-		"github": "atlamors",
-		"medium": "@--andrewnelson"
+		"github": "laxit-patel",
+		"medium": "https://laxitpatel.medium.com"
 	},
 
 	"portfolio": { 
-		"forkthis": "Steal this theme! Its open-source 🥰",
+		"forkthis": "Crafted with 💖 By Laxit Patel.",
 		"repo_html": "https://www.github.com/atlamors/portfolio",
 		"repo_api": "https://api.github.com/repos/atlamors/portfolio"
+	},
+
+	"credits": {
+		"message": "Crafted with 💖 By Laxit Patel."
 	}
 }

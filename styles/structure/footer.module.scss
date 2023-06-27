@@ -114,6 +114,29 @@
 			}
 		}
 	}
+
+	.credits {
+
+		* {
+			font-size: 1rem;
+			font-family: var(--font-accent);
+			font-weight: 600;
+			letter-spacing: -.01rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: fit-content;
+			margin: 0 auto;
+			gap: var(--size-2-);
+			filter: grayscale(1);
+
+			&:hover {
+				filter: grayscale(0);
+
+				
+			}
+		}
+	}
 }
 
 @include media($max: $mobile) {
