@@ -1,0 +1,34 @@
+{
+	"intro": {
+		"start": "I want to Re-Wamp every sh*tty UI in the world ✨",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "(Laxit)Lankit Patel",
+		"usp": "FullStack Developer & AWS DevOps Engineer",
+		"usp2": "Certified AWS DevOps Engineer"
+	},
+
+	"paragraph": "Experienced full-stack Laravel developer with AWS DevOps certification and 5 years of expertise. Passionate about crafting innovative web solutions and optimizing performance. A meticulous coder with a knack for clean, efficient, and scalable code. Eager to drive innovation and deliver exceptional user experiences.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/lankit/",
+			"leaveSite": "true"
+		}
+	}
+}
+ 
