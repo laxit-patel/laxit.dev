@@ -30,34 +30,34 @@ export default function About() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="As a Laravel developer with expertise in AWS DevOps, I bring a comprehensive skill set to the table. With a strong background in UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I offer a well-rounded digital professional experience."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<img src="/img/pose.jpeg" alt="Nelson family photo" />
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
-					<div className={about.copy} >
-						<CopyBlock 
-							title="Softskills that pay the bills"
+					<div className={about.copy}>
+						<CopyBlock
+							title="Technical Expertise and Leadership"
 							containerClass={about.container}
 							iconClass={about.icon}
-							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							icon={['fat', 'tools']}
+							copy="As a Laravel Developer and AWS Certified DevOps Engineer, I possess a strong technical skill set and extensive experience in building robust web applications. I have a deep understanding of Laravel framework and proficiency in implementing scalable cloud infrastructure using AWS services. Alongside my technical abilities, I am also a skilled leader with excellent time management and multitasking capabilities. I have demonstrated my leadership skills through my experience as a business owner, managing partner, and my role as a husband and father of two. I bring passion, dedication, and value to every project I undertake."
 						/>
-						<BadgesBlock 
-							title="Reasearch and planning" 
+						<BadgesBlock
+							title="Technical Methodologies"
 							containerClass={about.container}
-							list={methods} 
+							list={methods}
 							fullContainer="fullContainer"
-							block="methods" 
+							block="methods"
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
+							copy="I am well-versed in various technical methodologies and strategies that enhance user experience and product development. Some of the methodologies I specialize in include user research, digital strategy, design systems, product strategy, brand strategy, and operations. I enjoy planning the architecture of projects and working with the many touchpoints of user experience to create exceptional solutions."
+							// invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
-				</section>	
+				</section>
 			</Container>
 		</Section>
 	)

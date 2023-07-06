@@ -18,7 +18,7 @@ export default function HomePage() {
 			<Hero />
 			<Looking />
 			{/* <FeaturedProjects /> */}
-			{/* <About /> */}
+			<About />
 			<Technical />
 			{/* <Career /> */}
 		</>

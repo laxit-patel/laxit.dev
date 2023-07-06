@@ -3,6 +3,10 @@
 // Section
 .section {
 
+	.gray {
+		background-color: var(--primary-dark);
+	}
+
 	.content {
 		$padding: 2rem;
 		position: relative;

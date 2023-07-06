@@ -1,14 +1,14 @@
 [
 	{
-		"url": "/",
-		"title": "About Me"
+		"url": "/projects",
+		"title": "Projects"
 	},
 	{
 		"url": "/case-studies",
 		"title": "Certification"
 	},
 	{
-		"url": "/projects",
-		"title": "Projects"
+		"url": "/resume",
+		"title": "Resume"
 	}
 ]
