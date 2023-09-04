@@ -1,7 +1,7 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "Jihad Hassan - Marketing Director",
+			"person": "Personal",
 			"link": "",
 			"note": "Thank you for all the advice and feedback."
 		},
@@ -9,16 +9,6 @@
 			"person": "Colorpong - Artist",
 			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
 			"note": "Checkout their amazing vector illustrations."
-		},
-		{ 
-			"person": "Brittany Chiang - Software Engineer",
-			"link": "https://brittanychiang.com/",
-			"note": "A major inspiration to create an open source theme."
-		},
-		{ 
-			"person": "Vercel - Platform",
-			"link": "https://vercel.com/docs",
-			"note": "Host your own Next.js project for free!"
 		}
 	],
 
@@ -32,16 +22,16 @@
 
 	"social": [
 		{
+			"url": "https://www.linkedin.com/in/lankit/",
+			"icon": "linkedin"
+		},
+		{
 			"url": "https://medium.com/@laxitpatel",
 			"icon": "medium"
 		},
 		{
 			"url": "https://dev.to/laxit",
 			"icon": "dev"
-		},
-		{
-			"url": "https://www.linkedin.com/in/lankit/",
-			"icon": "linkedin"
 		},
 		{
 			"url": "https://github.com/laxit-patel",

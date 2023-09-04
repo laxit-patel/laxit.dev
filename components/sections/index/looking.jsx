@@ -28,7 +28,6 @@ export default function Looking() {
 				<h2 className={looking.jsonSub}><span className={looking.highlight2}>Laravel Developer</span>,</h2>
 				<h2 className={looking.jsonSub}><span className={looking.highlight}>DevOps Engineer</span></h2>
 				<h2 className={looking.json}>&#125;</h2>
-				<h4>I am particularily interested in integrating various ERP integration with beutyful dashboards.</h4>
 			</Container>
 		</Section>
 	)

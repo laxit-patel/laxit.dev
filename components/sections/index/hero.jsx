@@ -14,7 +14,9 @@ import hero 		from '../../../styles/sections/index/hero.module.scss';
 import button 		from '../../../styles/blocks/button.module.scss';
 
 import content		from '../../../content/index/hero.json'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 /**
  * TO DO LIST
@@ -65,12 +67,13 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:laxxitpatel@gmail.com' } >
-						{content.buttons.primary.title}
-					</button>
-					<button className={`button ${button.secondary} leaveSite`}
-							onClick={ ()=> window.open(content.buttons.secondary.url, "_blank") } >
-						{content.buttons.secondary.title}
+						onClick={() => window.location = 'tel:+919726412461'} >
+						<FontAwesomeIcon icon={faPhone} />
+						<span style={{ marginLeft: 10 }}>Contact Me</span></button>
+					<button className={`button ${button.secondary}`}
+						onClick={() => window.location = 'mailto:laxxitpatel@gmail.com'} >
+						<FontAwesomeIcon icon={faEnvelope} />
+						<span style={{ marginLeft: 10 }}>Email</span>
 					</button>
 				</section>
 			</Container>

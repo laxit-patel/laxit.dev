@@ -7,6 +7,8 @@ import css from '../../styles/structure/footer.module.scss'
 
 import content from '../../content/footer.json'
 import settings from '../../content/_settings.json'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
 	
@@ -32,32 +34,29 @@ export default function Footer() {
 		<footer className={css.container}>
 			<Container spacing={['verticalXXLrg', 'bottomLrg']}>
 				<section className={css.sections}>
-					{/* <ul className={css.thanks}>
-						<li><h4>Acknowledgments</h4></li>
-						{
-						content.acknowledgments.map( ({ person, link, note }, index) => {
-							return (
-								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
-									<p>{note}</p>
-								</li>
-							)
-						})
-						}
-					</ul> */}
-					{/* <ul className={css.links}>
-						<li><h4>Links</h4></li>
-						{
-						content.links.map( ({ person, link, note }, index) => {
-							return (
-								<li key={index}>
-									<a href={link} rel="noreferrer" target="_blank">{person} <Icon icon={[ 'fad', 'arrow-up-right-from-square' ]} /></a>
-									<p>{note}</p>
-								</li>
-							)
-						})
-						}
-					</ul> */}
+					<ul className={css.thanks}>
+						<li><h4>Phone</h4></li>
+						<li >
+							<a href="tel:+919726412461" rel="noreferrer" target="_blank"> (+91) 9726-412-461 <Icon icon={['devicon', 'photoshop']} /></a>
+							<FontAwesomeIcon color='green' pulse size='2x' icon={faWhatsapp} />
+							<p>Primary Contact</p>
+						</li>
+						<li >
+							<a href="tel:+919726412476" rel="noreferrer" target="_blank"> (+91) 9726-412-476 <Icon icon={['fab', 'pencil']} /></a>
+							<p>Secondary Contact</p>
+						</li>
+					</ul>
+					<ul className={css.links}>
+						<li><h4>Email</h4></li>
+						<li >
+							<a href="mailto:laxxitpatel@gmail.com" rel="noreferrer" target="_blank"> laxxitpatel@gmail.com <Icon icon={['fad', 'arrow-up-right-from-square']} /></a>
+							<p>Primary Email</p>
+						</li>
+						<li >
+							<a href="mailto: patellaxit8@gmail.com" rel="noreferrer" target="_blank"> patellaxit8@gmail.com <Icon icon={['fab', 'pencil']} /></a>
+							<p>Secondary Email</p>
+						</li>
+					</ul>
 					<ul className={css.social}>
 						<li><h4>Social</h4></li>
 						<li className={css.socialList}>
