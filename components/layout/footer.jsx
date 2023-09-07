@@ -7,8 +7,6 @@ import css from '../../styles/structure/footer.module.scss'
 
 import content from '../../content/footer.json'
 import settings from '../../content/_settings.json'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
 	
@@ -38,7 +36,6 @@ export default function Footer() {
 						<li><h4>Phone</h4></li>
 						<li >
 							<a href="tel:+919726412461" rel="noreferrer" target="_blank"> (+91) 9726-412-461 <Icon icon={['devicon', 'photoshop']} /></a>
-							<FontAwesomeIcon color='green' pulse size='2x' icon={faWhatsapp} />
 							<p>Primary Contact</p>
 						</li>
 						<li >

@@ -28,29 +28,42 @@ export default function Technical() {
 		<Section classProp={`${about.section} borderBottom`}>	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
-					title="Technical"
-					subTitle="As a full-stack developer proficient in Laravel and DevOps engineering, I specialize in creating intuitive digital experiences through a diverse range of tools and languages."
+					title="Tech Stack"
+					subTitle="Here is my technology stack showcasing the primary and secondary technologies and tools I have been proficiently working with."
 				/>
 				<section className={`${about.content} ${about.container}`}>
 					<div className={about.copy}>
-						<CopyBlock 
-							title="Creative Right-Hemisphere"
-							icon={[ 'fat', 'lightbulb' ]}
-							copy="Being left-handed has uniquely unlocked the creative potential of my right hemisphere, allowing me to cultivate a natural inclination towards artistic endeavors and aesthetics. With a keen sense of design, I harness this advantage to bring forth innovative and visually appealing solutions."
-							iconClass={about.icon}
+
+						<BadgesBlock
+							title="Languages / Frameworks"
+							copy="This is the technology i am proficient with. i use them to build my full stack web apps & API backends."
+							list={language}
+							block="tech"
+							fullContainer="fullContainer"
 							containerClass={about.container}
+							headerIcon={about.icon}
 						/>
 
-						<BadgesBlock 
-							title="Technologies I love to build with" 
-							copy="I deeply enjoy solving problems through code. From the front end all the way to the back end and the APIs in-between. No project is too challenging for me."
-							list={tech} 
+						<BadgesBlock
+							title="DevOps / Infrastructure"
+							copy="Tools i use to build my full stack web apps & API backends. it extends my development capabilities beyond just coding."
+							list={operation}
 							block="tech"
 							fullContainer="fullContainer" 
-							icon="laptop-code"
 							containerClass={about.container}
 							headerIcon={about.icon} 
-						/>							
+						/>	
+
+						<BadgesBlock
+							title="Tools & Services"
+							copy="This are tools i use to build my full stack web apps & API backends. make me more productive and efficient."
+							list={software}
+							block="tech"
+							fullContainer="fullContainer"
+							containerClass={about.container}
+							headerIcon={about.icon}
+						/>
+
 					</div>
 					<div className={`${about.image} ${about.technicalSvg}`}>
 						<Image src="/img/dataism-24.svg" width={477} height={1111} alt="Data Strings 01 by Colorpong: https://ywft.us/2177b695b" />
@@ -62,32 +75,58 @@ export default function Technical() {
 	)
 }
 
-const software = [
-	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
-	{ key: 'illustrator', 	name: 'Illustrator', 		type: 'devicon' },
-	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
-	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{ key: 'mailbox', 		name: 'Postman', 			type: 'fas' },
-	{ key: 'computer-mouse',name: 'Click Up', 			type: 'fas' },
-	{ key: 'list-music',	name: 'Ableton', 			type: 'fas' },
-	{ key: 'aftereffects',	name: 'After Effects', 		type: 'devicon' },
-	{ key: 'premierepro',	name: 'Premiere Pro', 		type: 'devicon' },
+const language = [
+	{ key: 'laravel', name: 'Laravel', type: 'devicon' },
+	{ key: 'php', name: 'PHP', type: 'devicon' },
+	{ key: 'javascript', name: 'JavaScript', type: 'devicon' },
+	{ key: 'nodejs', name: 'NodeJS', type: 'devicon' },
+	{ key: 'nextjs', name: 'NextJS', type: 'devicon' },
+	{ key: 'svelte', name: 'Svelte', type: 'devicon' },
+	{ key: 'vue', name: 'Vue', type: 'devicon' },
+	{ key: 'react', name: 'React', type: 'devicon' },
+	{ key: 'python', name: 'Python', type: 'devicon' },
+	{ key: 'django', name: 'DJango', type: 'devicon' },
+	{ key: 'sql', name: 'SQL', type: 'devicon' },
+	{ key: 'html5', name: 'HTML5', type: 'devicon' },
+	{ key: 'css3', name: 'CSS3', type: 'devicon' },
+	{ key: 'tailwind', name: 'Tailwind', type: 'devicon' },
+	{ key: 'jquery', name: 'jQuery', type: 'devicon' },
+	{ key: 'flutter', name: 'Flutter', type: 'devicon' },
+	{ key: 'markdown', name: 'Markdown', type: 'devicon' },
+	{ key: 'go', name: 'Go', type: 'devicon' },
 ]
 
-const tech	= [
-	{ key: 'javascript', 	name: 'JavaScript', 		type: 'devicon' },
-	{ key: 'nodejs', 		name: 'NodeJS', 			type: 'devicon' },
-	{ key: 'react', 		name: 'React', 				type: 'devicon' },
-	{ key: 'nextjs', 		name: 'NextJS', 			type: 'devicon' },
-	{ key: 'jquery', 		name: 'jQuery', 			type: 'devicon' },
-	{ key: 'php', 			name: 'PHP', 				type: 'devicon' },
-	{ key: 'wordpress', 	name: 'WordPress', 			type: 'devicon' },
-	{ key: 'woocommerce', 	name: 'WooCommerce', 		type: 'devicon' },
-	{ key: "google",		name: "GA4/GTM", 			type: "devicon" },
-	{ key: 'html5', 		name: 'HTML5', 				type: 'devicon' },
-	{ key: 'css3', 			name: 'CSS3', 				type: 'devicon' },
-	{ key: 'sass', 			name: 'SASS', 				type: 'devicon' },
-	{ key: 'git', 			name: 'Git', 				type: 'devicon' },
-	{ key: 'mysql', 		name: 'MySQL', 				type: 'devicon' },
-	{ key: 'mongodb', 		name: 'MongoDB', 			type: 'devicon' },
+const operation = [
+	{ key: 'amazonwebservices', name: 'AWS', type: 'devicon' },
+	{ key: 'git', name: 'Git', type: 'devicon' },
+	{ key: 'azure', name: 'Azure Cloud', type: 'devicon' },
+	{ key: 'googlecloud', name: 'Google Cloud', type: 'devicon' },
+	{ key: 'heroku', name: 'Heroku', type: 'devicon' },
+	{ key: 'firebase', name: 'Firebase', type: 'devicon' },
+	{ key: 'linux', name: 'Linux', type: 'devicon' },
+	{ key: 'ubuntu', name: 'Ubuntu', type: 'devicon' },
+	{ key: 'ssh', name: 'SSH', type: 'devicon' },
+	{ key: 'filezilla', name: 'FileZilla', type: 'devicon' },
+	{ key: 'putty', name: 'Putty', type: 'devicon' },
+	{ key: 'apache', name: 'Apache', type: 'devicon' },
+	{ key: 'nginx', name: 'NGinx', type: 'devicon' },
+]
+
+const software = [
+	{ key: 'vscode', name: 'VSCode', type: 'devicon' },
+	{ key: 'composer', name: 'Composer', type: 'devicon' },
+	{ key: 'yarn', name: 'Yarn', type: 'devicon' },
+	{ key: 'webpack', name: 'Webpack', type: 'devicon' },
+	{ key: 'mysql', name: 'MySQL', type: 'devicon' },
+	{ key: 'sqlite', name: 'SQLite', type: 'devicon' },
+	{ key: 'mongodb', name: 'MongoDB', type: 'devicon' },
+	{ key: 'postgresql', name: 'MongoDB', type: 'devicon' },
+	{ key: 'redis', name: 'Redis', type: 'devicon' },
+	{ key: 'wordpress', name: 'WordPress', type: 'devicon' },
+	{ key: 'figma', name: 'Figma', type: 'devicon' },
+	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
+	{ key: 'canva', name: 'Canva', type: 'devicon' },
+	{ key: 'codepen', name: 'Codepen', type: 'devicon' },
+	{ key: 'jira', name: 'Jira', type: 'devicon' },
+	{ key: 'trello', name: 'Trello', type: 'devicon' },
 ]

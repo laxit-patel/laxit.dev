@@ -6,17 +6,12 @@ import Container 	from '../../structure/container';
 
 import space		from '../../utils/spacing.util';
 
-import Icon 		from '../../utils/icon.util'
-
 import HeroBg		from '../../blocks/hero.bg/bg-color-1';
 
 import hero 		from '../../../styles/sections/index/hero.module.scss';
 import button 		from '../../../styles/blocks/button.module.scss';
 
-import content		from '../../../content/index/hero.json'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import content from '../../../content/index/hero.json'
 
 /**
  * TO DO LIST
@@ -68,12 +63,10 @@ export default function Hero() {
 				<section>
 					<button	className={`button ${button.primary}`}
 						onClick={() => window.location = 'tel:+919726412461'} >
-						<FontAwesomeIcon icon={faPhone} />
-						<span style={{ marginLeft: 10 }}>Contact Me</span></button>
+						<span >Contact Me</span></button>
 					<button className={`button ${button.secondary}`}
 						onClick={() => window.location = 'mailto:laxxitpatel@gmail.com'} >
-						<FontAwesomeIcon icon={faEnvelope} />
-						<span style={{ marginLeft: 10 }}>Email</span>
+						<span >Email</span>
 					</button>
 				</section>
 			</Container>

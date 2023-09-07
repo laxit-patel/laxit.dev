@@ -68,7 +68,7 @@ export default function Badges({ list, block, color, fullContainer }) {
 				<m.li 
 					key={name} 
 					className={`${badges.item} ${key}`}
-					//Animations
+					Animations
 					variants={item} >
 					<IconModule iconKey={key} iconType={type} color={color}/>
 					<span className={badges.title}>{name}</span>

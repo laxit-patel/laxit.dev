@@ -1,7 +1,7 @@
 {
 	"intro": {
-		"start": "I want to Revamp every sh*tty UI in the world ✨",
-		"end": "Hello, my name is",
+		"start": "Hello 👋, my name is",
+		"end": "Started my Web Development jounrney from 2016 🚀",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
