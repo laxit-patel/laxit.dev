@@ -51,9 +51,9 @@ export default function Hero() {
 					<h1 className={hero.header}>
 						{content.header.name}
 						</h1>
-					{/* <h1 className={`${hero.header} ${hero.primaryDim}`}>
+					<h1 className={`${hero.header} ${hero.primaryDim}`}>
 						{content.header.usp}
-					</h1> */}
+					</h1>
 				</section>
 				<section>
 					<p className={`${hero.primaryBright} subtitle ${space(["verticalLrg"])}`}>

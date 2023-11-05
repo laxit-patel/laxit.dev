@@ -19,7 +19,7 @@ export default function Recent({ mediumArticles }) {
 				<SectionTitle
 					title="Recent Articles"
 					preTitle="Informative"
-					subTitle="A personal quest to become a better creative writer."
+					subTitle="A personal quest to become a better technical/creative writer."
 				/>
 				<section className={css.projects}>
 					{

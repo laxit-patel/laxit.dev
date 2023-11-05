@@ -1,14 +1,6 @@
 [
 	{
-		"url": "/projects",
-		"title": "Projects"
-	},
-	{
-		"url": "/tech-stack",
-		"title": "Tech Stack"
-	},
-	{
-		"url": "/resume",
-		"title": "Resume"
+		"url": "/articles",
+		"title": "Articles"
 	}
 ]
