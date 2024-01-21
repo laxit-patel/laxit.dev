@@ -30,7 +30,7 @@ export default function Icon({ icon }) {
 
 	const [ iconType, iconKey ] = icon
 
-	const [stateIconKey, setIconKey] = useState('lightbulb')
+	const [stateIconKey, setIconKey] = useState('medium')
 
 	useEffect( () => setIconKey( iconKey ), [ iconKey ] )
 

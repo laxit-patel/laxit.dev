@@ -35,22 +35,22 @@ export default function Footer() {
 					<ul className={css.thanks}>
 						<li><h4>Phone</h4></li>
 						<li >
-							<a href="tel:+919726412461" rel="noreferrer" target="_blank"> (+91) 9726-412-461 <Icon icon={['devicon', 'photoshop']} /></a>
+							<a href="tel:+919726412461" rel="noreferrer" target="_blank"> (+91) 9726-412-461 </a>
 							<p>Primary Contact</p>
 						</li>
 						<li >
-							<a href="tel:+919726412476" rel="noreferrer" target="_blank"> (+91) 9726-412-476 <Icon icon={['fab', 'pencil']} /></a>
+							<a href="tel:+919726412476" rel="noreferrer" target="_blank"> (+91) 9726-412-476 </a>
 							<p>Secondary Contact</p>
 						</li>
 					</ul>
 					<ul className={css.links}>
 						<li><h4>Email</h4></li>
 						<li >
-							<a href="mailto:laxxitpatel@gmail.com" rel="noreferrer" target="_blank"> laxxitpatel@gmail.com <Icon icon={['fad', 'arrow-up-right-from-square']} /></a>
+							<a href="mailto:laxxitpatel@gmail.com" rel="noreferrer" target="_blank"> laxxitpatel@gmail.com </a>
 							<p>Primary Email</p>
 						</li>
 						<li >
-							<a href="mailto: patellaxit8@gmail.com" rel="noreferrer" target="_blank"> patellaxit8@gmail.com <Icon icon={['fab', 'pencil']} /></a>
+							<a href="mailto: patellaxit8@gmail.com" rel="noreferrer" target="_blank"> patellaxit8@gmail.com </a>
 							<p>Secondary Email</p>
 						</li>
 					</ul>

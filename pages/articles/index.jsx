@@ -33,7 +33,6 @@ export async function getServerSideProps({ res }) {
 	
 	let [ mediumArticles ] = await Promise.all( [
 		mediumRSS.json(),
-	] )
-
+	])
 	return { props: { mediumArticles } }
 }

@@ -71,7 +71,7 @@ export default function Looking() {
 					<span className={looking.highlight2}>Scalability : &#123;</span>
 				</h2>
 				<h2 className={`${looking.jsonSub} ${looking.jsonSubSub}`}>
-					<span className={looking.highlight}>Caching : Redis | Elasticche</span>,
+					<span className={looking.highlight}>Caching : Redis | Elasticache</span>,
 				</h2>
 				<h2 className={`${looking.jsonSub} ${looking.jsonSubSub}`}>
 					<span className={looking.highlight}>Storage : AWS S3</span>,
